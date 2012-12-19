@@ -6,7 +6,7 @@ Problem 4:
     Find the largest palindrome made from the product of two 3-digit numbers.
 
 Solution:
-
+    906609
 '''
 
 def isPalindrome(number):
@@ -20,7 +20,6 @@ for i in range(999,99,-1):
         break
     for j in range(i,minJ,-1):
         if isPalindrome(i*j) == True:
-            print(str(i) + " * " + str(j) + " = " + str(i*j))
             if(maxP < i*j):
                 maxP = i*j
                 minJ = j
