@@ -5,4 +5,4 @@ Repository stores all my solutions to [Project Euler](http://projecteuler.net/) 
 
 All solutions are done in Python.
 
-![Badge](http://projecteuler.net/profile/Master_Odin.png)
+![Badge](http://projecteuler.net/profile/Master_Odin.png?raw=true)
