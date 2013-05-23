@@ -8,7 +8,7 @@ forth. We then grab whatever the number is at the index specified by the
 number of times the factorial goes into the remaining number, and we get our
 answer
 
-Problem 024:
+Problem 024 (2):
     A permutation is an ordered arrangement of objects. For example, 3124 is 
     one possible permutation of the digits 1, 2, 3 and 4. If all of the 
     permutations are listed numerically or alphabetically, we call it 
@@ -42,7 +42,7 @@ for i in range(1,len(number)):
 
 for j in range(i,N):
     printN[j] = number[0]
-    number.pop()
+    number.pop(0)
 
 print(printN)
 
